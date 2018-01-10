@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>MAIN PAGE</title>
+		<link href="View/css/title.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div style="background-color: black; width: 1366px; height: 1200px;">
+      	<div class="site">
+            <a href="start.php"><img src="View/recources/logo.jpg"></a>
+      	</div>
+        <div id ="nav">
+          <a href="start.php"><button id="navlabel">HOME</button></a>
+          <a href="View/html/faq.html"><button id="navlabel">FAQ</button></a>
+          <a href="View/html/about.html"><button id="navlabel">ABOUT</button></a>
+        </div>
+    	<div id="canvasHolder"><canvas id="paper" height="1000" width="1000"></canvas></div>
+    	<div style="margin-left:160px;margin-top:10px; height:20px;">
+    		<label><font color="red">DEMO!!! &#8594;</font></label>
+    		<input id="ds" type="file" name="img" accept="image/jpeg, image/png" onchange="setImage(this)">
+    		<form METHOD="LINK" ACTION="View/html/form.html" style="float:right; margin-right:190px;">
+    			<input id ="xc" type="hidden" name="X" value="" style="height:0px;width:0px;">
+    			<input id ="yc" type="hidden" name="Y" value="" style="height:0px;width:0px;">
+    			<INPUT TYPE="submit" VALUE="BIND SEAL">
+    		</form>
+		</div>
+
+    <script>
+      var arr  = <?php require("Controler/data.php")?>;      
+    </script>
+
+    	<script src="View/js/canvas.js"></script>
+    	</div>
+	</body>
+</html>

@@ -1,0 +1,96 @@
+.site {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin-left: 160px;
+}
+
+#nav {
+	margin-top: 10px;
+	margin-left: 250px;
+}
+
+#navlabel {
+	margin-left: 180px;
+	background-color: red;
+}
+
+#paper {
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+#canvasHolder{
+	background-color: yellow;
+	margin-left: 160px;
+	margin-top: 10px;
+	width: 1008px;
+	height: 1008px;
+	border-width: 4px;
+	border-style: inset;
+	border-color: #ff0000 #ff4d4d #ff4d4d #ff0000;
+}
+
+#ds {
+	width: 180px;
+}
+
+#mydiv {
+	height: 356px;
+	width: 366px;
+	background: black;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #ff0000;
+	border-top-style: none;
+	border-width: 2px;
+}
+
+
+#smt {
+	margin-top: 20px;
+	margin-left: 498px;
+	background: red;
+  	width: 370px;
+  	height: 40px;
+  	text-align: center;
+  	line-height: 55px;
+}
+
+#lblsmt {
+	transform: translateY(20px);
+	margin-bottom:15px;
+	margin-left: 20px;
+	display: block;
+}
+
+#inpt {
+	height: 30px;
+	width: 325px;
+	color: red;
+	border-style: inset;
+	border-color: #ff0000 #ff4d4d #ff4d4d #ff0000;
+	background-color: white;
+	text-indent: 10px;
+}
+
+#inptS {
+	height: 30px;
+	width: 325px;
+	color: red;
+	border-style: inset;
+	border-color: #ff0000 #ff4d4d #ff4d4d #ff0000;
+	background-color: white;
+	text-indent: 10px;
+}
+
+
+#sbm {
+	height: 30px;
+	width: 325px;
+	margin-bottom:20px;
+	background: red;
+	border-color: transparent;
+	font-size: 20px;
+}

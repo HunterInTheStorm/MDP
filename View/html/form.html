@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>MAIN PAGE</title>
+		<link href="../css/title.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div style="background-color: black; width: 1366px; height: 700px;">
+      		<div class="site">
+      			<a href="../start.php"><img src="../recources/logo.jpg"></a>
+      		</div>
+       		 <div id ="nav">
+         		 <a href="../../start.php"><button id="navlabel">HOME</button></a>
+          		<a href="faq.html"><button id="navlabel">FAQ</button></a>
+         		 <a href="about.html"><button id="navlabel">ABOUT</button></a>
+      		</div>
+      		<div id="smt">
+				<img src="../recources/formpic.png">
+			</div>
+			<div id = "mydiv">
+				<form enctype="multipart/form-data" action="../../Controler/validate.php" method="post" name="EvilForm">
+					<label id="lblsmt"><font color="red"><input id="inptbtn" type="file" name="img" accept="image/jpeg, image/png"></font></label>
+					<label id="lblsmt"><input id="inpt" type="text" name="company_name" value="Name"></label>
+					<label id="lblsmt"><input id="inpt" type="text" name="mail" value="Email"></label>
+					<label id="lblsmt"><input id="inpt" type="text" name="message" value="Pop-up Message"></label>
+					<label id="lblsmt"><input id="inpt" type="text" name="link" value="Link"></label>
+					<label id="lblsmt"><input id="inptX" type="hidden" name="X" ></label>
+					<label id="lblsmt"><input id="inptY" type="hidden" name="Y" ></label>
+					<label id="lblsmt"><input id="inptS" type="text" name="Price" value="" readonly=""></label>
+					<label id="lblsmt"><input id="sbm" type="submit" value="BIND SEAL" name="submit"></label>
+					
+
+				</form>
+			</div>
+    	</div>
+    	<SCRIPT src="../js/form.js">
+		</SCRIPT> 
+	</body>
+</html>
