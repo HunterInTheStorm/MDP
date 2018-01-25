@@ -1,0 +1,1 @@
+The Million Dollar page in a Diablo 2 style.
